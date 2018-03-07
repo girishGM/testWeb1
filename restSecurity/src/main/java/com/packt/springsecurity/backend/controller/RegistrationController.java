@@ -31,7 +31,7 @@ public class RegistrationController {
 		super();
 	}
 
-	// API to register .....
+	// API
 
 	@RequestMapping(value = "registration", method = RequestMethod.POST)
 	@ResponseStatus(value = HttpStatus.CREATED)
